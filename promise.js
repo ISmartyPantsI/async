@@ -1,8 +1,9 @@
 let mypromise = new Promise((resolve) => {
     setTimeout(() => {
         console.log("delayed for 3 seconds");
-    }, 3000);
-    resolve();
+        resolve();
+    }, 30000);
+
 });
 
 console.log(1)
